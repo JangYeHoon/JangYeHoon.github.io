@@ -51,7 +51,7 @@
                 </h1>
                 <div class="subheading mb-5">
                     010 - 3320 - 1546
-                    <a href="mailto:name@email.com">jkjk128jikjk@hanmail.net</a>
+                    <a href="mailto:jkjk128jkjk@hanmail.net">jkjk128jikjk@hanmail.net</a>
                 </div>
                 <p class="lead mb-5">안녕하세요. 저는 현재 SDN / OpenStack 개발자로 Private Cloud에서 필요한 네트워크 가상화 기술들인 보안 그룹, ARP,
                     DHCP 등을 개발하고 OpenStack 트러블 슈팅 및 구축 등을 했습니다. 개발은 혼자가 아니라 여러 팀과 사람들이 함께 만들어 나간다는 생각으로 부탁하기 어려운 사람이 되지
@@ -88,8 +88,134 @@
                                 <span class="fa-li"><i class="fas fa-check"></i></span>
                                 오픈스택 기술 지원 및 트러블 슈팅
                             </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                <a href="javascript:openPop()">
+                                    경력 기술서
+                                </a>
+                            </li>
                         </ul>
                     </div>
+                    <div class="popup_layer" id="popup_layer" style="display: none;">
+                        <div class="popup_box">
+                            <div style="height: 10px; width: 375px; float: top;">
+                              <a href="javascript:closePop();"><img src="assets/img/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+                            </div>
+                            <!--팝업 컨텐츠 영역-->
+                            <div class="popup_cont">
+                                <h5>Rule Tracer App 개발</h5>
+                                <ul>
+                                    <li>
+                                        기간 : 2022.04 ~ 2022.08
+                                    </li>
+                                    <li>
+                                        담당 업무 : Controller와 OvS의 FlowRule이 다를 경우 룰 재설치 및 삭제 App 개발
+                                    </li>
+                                    <li>
+                                        주요 내용
+                                        <ol>
+                                            <li>
+                                                Multipart Reqeust를 통해 OvS의 FlowRule을 주기적으로 체크
+                                            </li>
+                                            <li>
+                                                Controller에서 내린 FlowRule이 없을 경우 재설치
+                                            </li>
+                                            <li>
+                                                Controller에서 내리지 않은 FlowRule이 있을 경우 삭제
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                                <h5>SDN Controller 안정화</h5>
+                                <ul>
+                                    <li>
+                                        기간 : 2022.01 ~ 2022.04
+                                    </li>
+                                    <li>
+                                        담당 업무 : 사이트에서 발생한 버그와 오류 수정
+                                    </li>
+                                    <li>
+                                        주요 내용
+                                        <ol>
+                                            <li>
+                                                OpenStack에서 사용하는 Public 대역을 클러스터 외부에서 사용할 경우에 대한 ARP 처리 추가
+                                            </li>
+                                            <li>
+                                                보안 그룹에서 원격 보안 그룹과 포트 범위가 지정이 안되던 버그 수정
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                                <h5>KISA 클라우드 구축 지원</h5>
+                                <ul>
+                                    <li>
+                                        기간 : 2022.01 ~ 2022.02
+                                    </li>
+                                    <li>
+                                        담당 업무 : SDN Controller 설치 및 스위치 작업 지원
+                                    </li>
+                                    <li>
+                                        주요 내용
+                                        <ol>
+                                            <li>
+                                                SDN Controller 설치 및 장애 지원
+                                            </li>
+                                            <li>
+                                                스위치 이중화 작업
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                                <h5>NIA 클라우드 전환 사업 지원</h5>
+                                <ul>
+                                    <li>
+                                        기간 : 2021.09 ~ 2021.12
+                                    </li>
+                                    <li>
+                                        담당 업무 : 클라우드 전환 시 발생하는 네트워크 및 오픈스택 이슈 지원
+                                    </li>
+                                    <li>
+                                        주요 내용
+                                        <ol>
+                                            <li>
+                                                OpenStack 이슈 관련 트러블슈팅
+                                            </li>
+                                            <li>
+                                                SDN Controller 장애 지원 및 스위치 작업 지원
+                                            </li>
+                                            <li>
+                                                클라우드 전환 시 현장 대기
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                                <h5>SDN Controller Headless 모드 고도화</h5>
+                                <ul>
+                                    <li>
+                                        기간 : 2022.07 ~ 2021.08
+                                    </li>
+                                    <li>
+                                        담당 업무 : Headless 모드 지원을 하루에서 최대 6개월로 연장
+                                    </li>
+                                    <li>
+                                        주요 내용
+                                        <ol>
+                                            <li>
+                                                DHCP lease time 조정
+                                            </li>
+                                            <li>
+                                                스위치 이중화 작업
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--팝업 버튼 영역-->
+                            <div class="popup_btn" style="float: bottom; margin-top: 200px;">
+                                <a href="javascript:closePop();">닫기</a>
+                            </div>
+                        </div>
+                      </div>
                     <div class="flex-shrink-0"><span class="text-primary">2021.04 ~ 현재</span></div>
                 </div>
             </div>
@@ -104,7 +230,7 @@
                         <h3 class="mb-0">경기대학교</h3>
                         <div class="subheading mb-3">석사</div>
                         <div>컴퓨터과학과 - SDN(Software Defined Network), DeepLearning</div>
-                        <p>졸업 논문 : SDN 환경에서 딥러니을 활용한 플로우 분류 기법 연구</p>
+                        <p>졸업 논문 : SDN 환경에서 딥러닝을 활용한 플로우 분류 기법 연구</p>
                         <p>평점 : 4.17 / 4.5</p>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">2019 / 03 - 2021 / 02</span></div>
@@ -166,7 +292,7 @@
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
-                        CCNP(2020/11/23) - Cisco
+                        CCNP(2020/12/23) - Cisco
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -200,7 +326,7 @@
                 <ul>
                     <li>
                         장예훈, 이병대, "SDN 환경에서 VAE 기반 다양한 트래픽 분류 기법 연구" 2020 한국인터넷정보학회 추계학술발표대회, 2020. 10.
-                        <i class="fas fa-trophy text-warning"></i>우수 논문상 수상
+                        <i class="fas fa-trophy text-warning" title="우수 논문상 수상(2020.10.21)"></i>
                     </li>
                     <li>
                         이찬수, 장예훈, 김남기, “대장 통과 시간 측정을 위한 딥러닝 기반 방사선 비투과성 표지자 자동 탐지 기법”. 차세대융합기술학회논문지, 4(4), 361-366,
